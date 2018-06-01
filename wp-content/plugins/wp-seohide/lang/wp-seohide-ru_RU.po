@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-seohide\n"
+"POT-Creation-Date: 2015-12-02 18:37+0200\n"
+"PO-Revision-Date: 2015-12-02 18:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Menu.php:12
+msgid "Wp SeoHide page"
+msgstr "Wp SeoHide страница"
+
+#: includes/Menu.php:13 wp-seohide.php:22
+msgid "SeoHide"
+msgstr ""
+
+#: wp-seohide.php:21
+msgid "Wp SeoHide | Options"
+msgstr "Wp SeoHide | Опции"
+
+#: wp-seohide.php:37
+msgid "SeoHide Options"
+msgstr "SeoHide опции"
+
+#: wp-seohide.php:44
+msgid "Hide"
+msgstr "Скрыть"
+
+#: wp-seohide.php:48 wp-seohide.php:87
+msgid "In Menus:"
+msgstr "В меню:"
+
+#: wp-seohide.php:60
+msgid "Specify menu items in which need to hide urls"
+msgstr "укажите меню, в которых нужно скрыть URL-адреса"
+
+#: wp-seohide.php:64
+msgid "In Widgets"
+msgstr "В виджетах"
+
+#: wp-seohide.php:67
+msgid "Switch On, if need hide urls in widgets"
+msgstr "Включите, если необходимо скрывать URL в виджетах"
+
+#: wp-seohide.php:73
+msgid "Exclude Url's"
+msgstr "Исключть адреса"
+
+#: wp-seohide.php:76
+msgid ""
+"If need to disable hiding, on custom site urls, just enter them in new line. "
+"Like: site.com/exclude_url"
+msgstr ""
+"Если нужно отключить скрытие, на определенных URL-адресов сайта, просто "
+"введите их в новую строку. Например: site.com/exclude_url"
+
+#: wp-seohide.php:83
+msgid "Hide Exclude"
+msgstr "Исключить скрытие"
+
+#: wp-seohide.php:99
+msgid "Specify menu items, that need exclude from hiding on listed url below"
+msgstr ""
+"Укажите меню, которые нужно исключить из скрытия на URL-адресах, "
+"перечисленные ниже"
+
+#: wp-seohide.php:103
+msgid "Url's"
+msgstr "Адреса"
+
+#: wp-seohide.php:106
+msgid "List of urls, on which will exclude menu items from hiding"
+msgstr ""
+"Список URL, на которых будет отключено скрытие URL в меню перечисленных выше"
+
+#: wp-seohide.php:114
+msgid "Save"
+msgstr "Сохранить"

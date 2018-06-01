@@ -1,0 +1,31 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^detskie-fotooboi$ https://oboi-printcolor.com/detskie [L,R=permanent]
+RewriteRule ^fotooboi-v-donecke$ https://oboi-printcolor.com [L,R=permanent]
+RewriteRule ^fotooboi-dlya-detskoy$ https://oboi-printcolor.com/fotooboi-v-detskuyu [L,R=permanent]
+RewriteRule ^fotooboi-v-luganske$ https://oboi-printcolor.com/ [L,R=permanent]
+
+
+
+
+# BEGIN WPSuperCache
+# END WPSuperCache
+
+#<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?oboi-printcolor\.com/.*$ [NC]
+#RewriteRule .*\.(gif|jpg|png|ico)$ - [F,L]
+#</ifModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

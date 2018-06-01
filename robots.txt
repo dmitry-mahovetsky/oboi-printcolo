@@ -1,0 +1,70 @@
+User-agent: Yandex
+
+Disallow: /wp-admin
+
+Disallow: /wp-includes
+
+Disallow: /wp-comments
+
+Disallow: /wp-content/plugins
+
+Disallow: /wp-login.php
+
+Disallow: /wp-register.php
+
+Disallow: */trackback
+
+Disallow: */feed
+
+Disallow: /cgi-bin
+
+Disallow: *?s=
+
+Disallow: /*?* 
+
+Disallow: /attachment
+
+Host: https://oboi-printcolor.com
+
+
+User-agent: *
+
+Disallow: /wp-admin
+
+Disallow: /wp-includes
+
+Disallow: /wp-comments
+
+Disallow: /wp-content/plugins
+
+Disallow: /wp-login.php
+
+Disallow: /wp-register.php
+
+Disallow: */trackback
+
+Disallow: */feed
+
+Disallow: /cgi-bin
+
+Disallow: *?s=
+
+Disallow: /*?* 
+
+Allow: /wp-content/plugins/lightbox/css/frontend/*.css
+
+Allow: /wp-includes/js/*.js
+
+Allow: /wp-content/plugins/taxonomy-images/css/*.css
+
+Allow: /wp-includes/js/jquery/*.js
+
+Allow: /wp-content/plugins/lightbox/js/frontend/*.js
+
+Allow: /wp-content/themes/PrintColor/fonts/ge_inspira/*.ttf
+
+Allow: /wp-content/themes/PrintColor/fonts/ge_inspira/*.woff
+
+Allow: /wp-content/plugins/meteor-slides
+
+Sitemap: https://oboi-printcolor.com/sitemap_index.xml

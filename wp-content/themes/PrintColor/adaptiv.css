@@ -1,0 +1,173 @@
+@media only screen and (max-width : 992px) {
+    .pw_gallery_holder {
+        width: 74%
+    }
+    .pw_category_holder {
+        width: 25%;
+    }
+}
+
+@media (max-width : 1060px) {
+    .menu-glavnoe-menyu-container ul li a {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 992px) {
+    .rowAboutCategory .col-left {
+        width: 100%;
+    }
+    .rowAboutCategory .col-right {
+        width: 100%;
+    }
+    .rowIcons .menu li {
+        margin: 15px 15px;
+    }
+    .rowIcons .menu {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media (max-width : 880px) {
+    .menu-glavnoe-menyu-container ul li a {
+        font-size: 1.2rem;
+        padding: 0 12px;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    .commentlist .stars .row {
+        justify-content: space-between;
+    }
+
+    .commentlist .stars .row .col-md-1 {
+        width: 8.3333333333%;
+    }
+    .selectedSelector-wrapp {
+         padding-right: 0;
+    }
+    .selectedSelector .card {
+        width: 45%;
+    }
+    .product_box .product_item .order_button.readMore {
+        font-size: 13px;
+        padding: 0 14px;
+    }
+    .rowAboutCategory {
+        padding: 0;
+    }
+    .pw_gallery_holder {
+        width: 100%
+    }
+    header {
+        margin-bottom: 30px;
+    }
+    #menu_left_trigger {
+        position: absolute;
+        height: 32px;
+        width: 32px;
+        background: url(images/menu_1.png) no-repeat;
+        left: 30px;
+        top: 3px;
+        z-index: 1000;
+        cursor: pointer;
+        display: block;
+    }
+    .menu-glavnoe-menyu-container {
+        background: #fff;
+        position: relative;
+        overflow: visible;
+    }
+    .menu-glavnoe-menyu-container ul {
+        display: table;
+        overflow: visible;
+        z-index: 1000;
+        width: 200px;
+        position: absolute;
+        left: 30px;
+        top: 48px;
+        background: #fff;
+        height: 0px;
+    }
+    .menu-glavnoe-menyu-container ul li {
+        float: none;
+        border-right: 0;
+        box-shadow: none;
+        display: none;
+        list-style: none;
+        height: auto;
+    }
+    .menu-glavnoe-menyu-container ul li:first-child {
+        margin-left: 0;
+        margin-top: 38px;
+    }
+    .menu-glavnoe-menyu-container ul li a {
+        color: #626262;
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    .menu-glavnoe-menyu-container ul li a:hover, .menu-glavnoe-menyu-container .current_page_item a {
+        color: #101010;
+        border-bottom: 1px solid #95C400;
+        text-decoration: none;
+    }
+    .menu-glavnoe-menyu-container ul li:last-child a {
+        color: #fff;
+    }
+    .pw_category_holder {
+        display: none;
+        position: absolute;
+        width: 216px;
+        z-index: 9999;
+        background: #fff;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+    .send-image-form{
+        -webkit-order: 7;
+            -ms-flex-order: 7;
+                order: 7;
+    }
+    .pw_pic_search_holder{
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .pw_category_holder > .all_category_link{
+        -webkit-order: 2;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .pw_category_holder div:nth-child(4){
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    .pw_category_holder div:nth-child(5){
+        -webkit-order: 4;
+            -ms-flex-order: 4;
+                order: 4;
+    }
+    .button-cities{
+        -webkit-order: 5;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+    .pw_category_holder div:nth-child(7){
+        -webkit-order: 6;
+            -ms-flex-order: 6;
+                order: 6;
+    }
+    .pw_color_selectors{
+        -webkit-order: 8;
+            -ms-flex-order: 8;
+                order: 8;
+    }
+    .right_sidebar_holder{
+        -webkit-order: 9;
+            -ms-flex-order: 9;
+                order: 9;
+    }
+}

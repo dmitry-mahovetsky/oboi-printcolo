@@ -1,0 +1,141 @@
+* {    font-family: arial;}
+select {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2px;
+}
+#preload {
+    display: none;
+    left: 48%;
+    position: fixed;
+    top: 100px;
+    z-index: 99999;
+}
+#send,#vibor {
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px #fff;
+    text-transform: uppercase;
+}
+#send:hover,#vibor:hover {
+    box-shadow: 1px 1px 3px #000;
+}
+#windowlist {
+    left: 15%;
+    position: absolute;
+    top: 100px;
+    width: 940px;
+    z-index: 9999;
+}
+#imglist,#loadlist {
+    background-color: #fff;
+    border: 2px solid;
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+}
+#loadlist li {
+    background-image: url("../img/folderclosed.gif");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    list-style: outside none none;
+    margin: 10px 0;
+    padding: 2px 0 2px 30px;
+    width: 90%;
+}
+#loadlist li a {
+    font-size: 16px;
+    outline: 0 none;
+}
+#imglist img {
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    max-height: 120px;
+    max-width: 180px;
+    padding: 3px;
+}
+#imglist img:hover {
+    box-shadow: 1px 1px 3px;
+}
+.imgblock {
+    border: 1px solid;
+    float: left;
+    height: 200px;
+    margin: 8px;
+    max-width: 190px;
+    padding: 5px;
+    width: 190px;
+}
+.imgblock p {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+.list_close {
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: 99999;
+}
+.w90 {
+    font-size: 20px;
+    margin: 0 auto;
+    width: 90%;	
+}
+#catnam {
+    color: #5c056a;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+.tabresult {
+    border: 1px solid;
+    margin: 20px auto;
+    min-width: 1080px;
+    width: 90%;
+}
+.tabresult td,.tabresult th {
+    border: 1px solid;
+    color: #5c056a;
+    font-size: 18px;
+    max-width: 120px;
+    padding: 5px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.tabresult td input[type="text"] {
+    width: 100%;
+	font-size:18px;
+}
+.tabresult td .newnam {
+    width: 100%;
+	font-size:18px;
+}
+.tabresult img {
+    width: 100px;
+}
+.mini .newnam {
+    border: medium none;
+    color: #5c056a;
+    text-align: center;
+    width: 100%;	
+}
+
+
+
+
+
+
+
+
+

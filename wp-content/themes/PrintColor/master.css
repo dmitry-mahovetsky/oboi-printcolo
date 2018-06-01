@@ -1,0 +1,374 @@
+label {
+    position: relative;
+}
+
+.rowBreakCheck label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.rowBreakCheck input {
+    display: none;
+}
+.rowBreakCheck .psevdoCheckbox {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/icons/greenCheckboxClear.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-right: 4px;
+}
+.rowBreakCheck input:checked ~ .psevdoCheckbox {
+    background-image: url(./img/icons/greenCheckboxIsset.png);
+}
+.rowBreakCheck .text {
+    font-size: 15px;
+    color: #92c22d;
+}
+
+.order_page .wp_options {
+    background: none;
+}
+.sizeCard, .typeCard, .materialCard, .texturaCard, .resultCard {
+    background: #f9faf3;
+    padding: 10px 0 10px;
+    margin-bottom: 12px;
+}
+
+.typeCard .fieldGroup label .psevdoCircle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #444;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.typeCard .fieldGroup label span {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    padding-left: 4px
+}
+
+.typeCard .fieldGroup label .psevdoCircle {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #444;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: -18px;
+    top: 3px;
+}
+
+.typeCard .fieldGroup label input:checked ~ span {
+    color: #95c400;
+}
+
+.typeCard .fieldGroup label input:checked ~ .psevdoCircle {
+    border-color: #95c400;
+    background-color: #95c400;
+}
+
+
+.materialCard select, .texturaCard select{
+    display: none;
+}
+.materialCard .selectZ .listOption .li, .texturaCard .selectZ .listOption .li{
+    height: 34px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    z-index: 99;
+    border: 1px solid transparent;
+}
+.materialCard .selectZ .active .price, .texturaCard .selectZ .active .price {
+    font-size: 12px;
+    color: #484848;
+    font-weight: 400;
+}
+
+.materialCard .selectZ .active, .texturaCard .selectZ .active{
+    height: 34px;
+    border-bottom: 1px solid #eaeaea;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 40px 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    color: #92c22d;
+    background-image: url(./img/icons/arrowSelector.png);
+    background-repeat: no-repeat;
+    background-position: right 9px center;
+}
+
+.materialCard .selectZ .listOption, .texturaCard .selectZ .listOption{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    max-height: 0;
+    z-index: 2;
+    overflow: hidden;
+    border: 0;
+}
+
+
+.materialCard .selectZ, .texturaCard .selectZ{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    position: relative;
+}
+
+.materialCard .selectZ[data-open] .listOption, .texturaCard .selectZ[data-open] .listOption{
+    max-height: 100vh;
+    border-bottom: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+
+
+.resultCard .row .allPrice .resultPrice {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff7423;
+    border: 1px solid #ff7423;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px;
+    line-height: 32px;
+}
+.resultCard .row .countAll span {
+    font-size: 18px;
+    color: #353535;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+.resultCard .row .allSize span {
+    font-size: 18px;
+    color: #353535;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+.resultCard .row .allSize .name {
+    font-size: 16px;
+    color: #353535;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.resultCard .row .allPrice {
+    text-align: center;
+    width: 154px;
+}
+.resultCard .row .countAll {
+    width: 186px;
+}
+.resultCard .row .allSize {
+    width: 125px;
+}
+.resultCard .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.img_options {
+    position: relative;
+    z-index: 10;
+}
+.img_options ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+}
+.img_options label {
+    margin: 0;
+    padding-left: 4px;
+}
+#pw_main_pictures .rowWarning {
+    font-size: 16px;
+    color: #92c22d;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.order_page .prod_img_holder .img_options ul li label:after {
+    content: "";
+    position: absolute;
+    left: -17px;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #444444;
+    border-radius: 50%;
+    top: 3px;
+}
+.img_options--btn {
+    font-size: 15px;
+    color: #fff;
+    background-color: #92c22d;
+    line-height: 32px;
+    padding: 0 30px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+}
+.img_options--btn:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.itemsChange {
+}
+.itemsChange .breakLine {
+    height: 100%;
+    display: inline-block;
+}
+.itemsChange .breakLine:after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(./img/breakLine.png);
+    display: block;
+}
+
+.itemsChange .breakLine:nth-child(1):after {
+    background: none;
+}
+
+.utl-mobile .uptl_container-share {
+
+    display: none;
+}
+
+
+@media (max-width: 991px){
+    .sizeCard__row {
+        display: table;
+        margin: auto;
+    }
+    .sizeCard__row .col-md-5.text-center {
+        display: table-cell;
+    }
+}
+
+@media (max-width: 615px){
+    .img_options ul {
+        display: block;
+    }
+    .img_options__item--btn {
+        display: table !important;
+        margin-left: auto;
+        margin-right: auto !important;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 527px) {
+    .order_page .wp_options {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .sizeCard__row {
+        display: block;
+        margin: auto;
+    }
+    .sizeCard__row .col-md-5.text-center {
+        display: block;
+    }
+    .resultCard .row {
+        display: inline-block;
+        width: 100%;
+    }
+    .resultCard .row .countAll, .resultCard .row .allSize {
+        width: 50%;
+        float: left;
+        height: 60px;
+    }
+    #number_of_rolls {
+        margin-top: 8px;
+    }
+    .resultCard .row .allPrice {
+        margin: 0 auto;
+        width: 100%;
+        float: none;
+    }
+    #pw_main_pictures .rowWarning {
+        text-align: center;
+        font-size: 14px;
+    }
+    .materialCard .selectZ .active, .texturaCard .selectZ .active {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    li.img_options__item {
+        display: table !important;
+        margin-left: auto;
+        margin-right: auto !important;
+        margin-top: 10px;
+    }
+}
